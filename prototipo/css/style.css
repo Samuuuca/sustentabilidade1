@@ -1,0 +1,256 @@
+/*@font-face {
+  font-family: Lemon Milk;
+  src: url(fonts/LEMONMILK-Bold.otf);
+}*/
+
+html{
+  background-color: #f1f1f1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+
+.side_bar{
+
+  background-color: #018383;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: space-around;
+}
+
+.logo{
+  
+  margin-top: 10px;
+  
+}
+
+.home{
+
+  filter: invert(100%);
+
+}
+
+
+#button_dark {
+  background-color: #f1f1f1; 
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#button_dark:hover {
+  
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#myImage{
+  position: relative;
+  top: 50%;
+  transform: translate( 0, -65%);
+
+}
+
+.taskbar ul {  
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  overflow: hidden;
+  background-color: #02A8A8;
+  justify-content: center;
+  flex-wrap: wrap ;
+}
+  
+.taskbar li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.taskbar li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+
+
+.lorem{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.globoVerde{
+
+  border-radius: 10px;
+  max-width: 300px;
+  height: 200px;
+
+}
+
+
+.ImgTeste1{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.ImgTeste2{
+
+  background-image: url(/img/direito-e-sustentabilidade.jpg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  
+  margin: 30px;
+  height: 500px;
+  display: grid;
+  /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/
+
+}
+
+.textoGrid {
+
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+}
+
+.textoGrid p{
+
+  color: #000;
+}
+
+
+
+.conteiner{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.x{
+
+  margin-top: 20px;
+  background-color: #1fa7123f;
+  border-radius: 30px;
+  width: 600px;
+  height: 300px;
+
+
+}
+
+.line{
+  
+  margin-top: 10px;
+  background-color: #111;
+  width: 2px;
+  height: 250px;
+  border-radius: 2px;
+  
+
+}
+
+.listBeneficios{
+  list-style-type: upper-alpha;
+}
+.texto{
+
+  display: flex;
+  font-size: 20px;
+  justify-content:space-evenly;
+
+
+}
+
+#importancia {
+  text-align: center;
+  margin: 50px;
+}
+
+.widget_bg3_right{
+  display: flex;
+  justify-content: right;
+}
+
+.widget_bg3_right a{
+
+  width: 200px;
+  height: 50px;
+  background-color: rgb(89, 250, 124);
+  cursor: pointer;
+  
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px 10px 0px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.widget_bg3_right a:hover{
+
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#setaImage{
+
+  background-color: rgb(89, 250, 124);
+  border-radius: 50%;
+  padding: 0.3em;
+  width: 20px;
+  height: 20px;
+  position: relative;
+
+}
+
+.widget_bg3_right #setaImage{
+
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.button_text{
+  
+  margin-right: 5px;
+  font-size: 17px;
+}
+#Contato{
+  background-color: #333;
+
+}
+#Contato p{
+
+  text-align: center;
+  color: white;
+  
+
+}
+#Contato a{
+  text-decoration: none;
+  color: green;
+}

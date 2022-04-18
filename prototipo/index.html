@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br" id="background">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body id="text_color">
+
+    <div class="side_bar">
+        <a id="topo" class="home" href="#"> <img src="img/home.png" alt="casa"> </a>
+        <a id="topo" class="logo" href="#"> <img src="img/sustentabilidade  .png" alt="sustentabilidade"> </a>
+        <button id="button_dark" onclick="modo_dark()"> <img id="myImage" src="img/lua-crescente.png"
+                alt="lua-crescente" width="20px" height="20px">
+        </button>
+    </div>
+
+
+    <div class="taskbar">
+        <nav>
+            <ul>
+                <li><a href="#Sobre"> Home</a></li>
+                <li><a href="#OQE"> O que é </a></li>
+                <li><a href="#importancia"> Importância </a></li>
+                <li><a href="#Sobre"> Sobre </a></li>
+                <li><a href="#Contato"> Contato </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="lorem">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, <br>
+            assumenda itaque? Ratione pariatur provident ipsam corrupti corporis <br>
+            similique laudantium veniam voluptatibus minima odit impedit beatae, <br>
+            officia sunt saepe eius. Ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Autem qui totam et magni, exercitationem minima repellendus quidem culpa aperiam molestiae <br>
+            iste iusto laudantium! Blanditiis, sapiente neque laudantium exercitationem iusto similique? </p>
+
+        <img class="globoVerde" src="img/dicas-de-sustentabilidade.jpg" alt="globo verde">
+    </div>
+
+
+    <div>
+        <div id="OQE" class="ImgTeste2"> </div>
+      <!--  <div class="textoGrid"> -->
+            <h1> O que é um Lixo eletrónico </h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quod similique vitae, voluptas
+                illum adipisci inventore molestiae nulla asperiores repudiandae. Necessitatibus quam at esse nisi.
+                Nobis
+                ab animi exercitationem ut.
+            </p>
+        </div>
+    </div>
+    <div class="conteiner">
+        <div class="x">
+            <div class="texto">
+                <h3 class="bene" style="color: #19BC12;"> Benefifcios </h3>
+
+                <span class="line"></span>
+                <h3 class="male" style="color: rgb(255, 0, 0);"> Maleficios</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="importancia">
+        <h2>Importância</h2>
+
+        <p>É importante que seja feito o descarte de materias eletronicos porconta dos riscos que esses residuos
+            trazem para o ser humano e para a natureza, quando em contato com o solo esses materias afetam os
+            lencois freaticos prejudicando lagos e rios e a vida maritmica.<br> Álem de ser autamente prejudicial para
+            os animais e plantas. E quando consumidos, ou inalados, esses metais pesados podem causar danos
+            neurológicos, renais, ósseos, circulatórios e até hipertensão, anemia e paralisia aos seres humanos.
+        </p>
+
+    </div>
+
+    <div class="widget_bg3_right">
+
+        <a href="#background"><img id="setaImage" src="img/seta.png" alt="seta" width="20px" height="20px">
+
+            <p class="button_text"> Voltar ao Topo </p>
+        </a>
+
+
+    </div>
+
+    <footer id="Contato">
+        <p> Desesnvolvido por <a href="https://github.com/Samuuuca" target="_blank">Samuel, </a></p>
+
+    </footer>
+
+
+
+    <script>
+
+        let testelogico = false
+        const tela1 = document.getElementById('background')
+        const button_dark = document.getElementById('button_dark')
+        const text_color = document.getElementById('text_color')
+        const sol = document.getElementById('myImage')
+
+
+        function modo_dark() {
+
+
+            if (testelogico == true) {
+
+                background.style.backgroundColor = ('#f1f1f1')
+                sol.src = 'img/lua-crescente.png'
+                text_color.style.color = ('black')
+                testelogico = false
+
+            } else {
+
+                background.style.backgroundColor = ('#1c1c1c')
+                sol.src = 'img/sol-solido.png'
+                text_color.style.color = ('#cfcfcf')
+                testelogico = true
+            }
+
+
+        }
+
+        console.log(sol)
+        console.log(text_color)
+
+
+
+    </script>
+
+</body>
+
+</html>
